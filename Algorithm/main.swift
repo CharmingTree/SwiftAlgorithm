@@ -8,12 +8,18 @@
 import Foundation
 
 var mergesort : MergeSort = MergeSort()
-
+var quick : QuickSort = QuickSort()
 var arr = [ 90, 3, 1, 4, 3,34, 22 , 23, 6,1]
-print("arr size : \(arr.count)")
-mergesort.initSortedArr(size: arr.count)
-print(arr)
+print("unSorted : \(arr)")
 
-mergesort.mergeSort(arr: &arr, m: 0, n: arr.count-1)
+/* MergeSort Test*/
+//print("arr size : \(arr.count)")
+//mergesort.initSortedArr(size: arr.count)
+//print("unSorted : \(arr)")
+//mergesort.mergeSort(arr: &arr, west: 0, east: arr.count-1)
+//print("Sorted : \(arr)")
 
-print(arr)
+/* QuickSort Test*/
+quick.quickSort(arr: &arr, start: 0, end: arr.count-1)
+print("unSorted : \(arr)")
+
