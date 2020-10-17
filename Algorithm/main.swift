@@ -9,8 +9,21 @@ import Foundation
 
 //var mergesort : MergeSort = MergeSort()
 //var quick : QuickSort = QuickSort()
-//var arr = [ 90, 3, 1, 4, 3,34, 22 , 23, 6,1]
-//print("unSorted : \(arr)")
+var arr : [Int] = []
+
+for i in 0..<100 {
+    arr.append(Int(arc4random_uniform(200)))
+}
+
+//for i in stride(from: 0, to: arr.count, by: 1) {
+//    if ( (i % 10) == 0 )
+//    {
+//        print("\(i):\(arr[i])")
+//    }
+//    else {
+//        print("\(i):\(arr[i])", terminator: " ")
+//    }
+//}
 
 /* MergeSort Test*/
 //print("arr size : \(arr.count)")
@@ -24,11 +37,23 @@ import Foundation
 //print("unSorted : \(arr)")
 
 /* DFS TEST */
-var d = DFS()
-d.setValue(edges: [(1, 2), (2, 1), (1, 3), (3, 1), (2, 3), (3, 2), (2, 4), (4, 2), (2, 5), (5, 2), (3, 6), (6, 3), (3, 7), (7, 3), (4, 5), (5, 4), (6, 7), (7, 6)])
+//var d = DFS()
+//d.setValue(edges: [(1, 2), (2, 1), (1, 3), (3, 1), (2, 3), (3, 2), (2, 4), (4, 2), (2, 5), (5, 2), (3, 6), (6, 3), (3, 7), (7, 3), (4, 5), (5, 4), (6, 7), (7, 6)])
+//
+//d.dfs(x: 1)
 
-d.dfs(x: 1)
+/* InsertTest */
+//var insertsort : InsertSort = InsertSort()
+//print("unSorted : \(arr)")
+//insertsort.Sort(arr: &arr, start: 0, end: arr.count)
+//print("Sorted : \(arr)")
 
+/* BubbleSortTest */
+var bubblesort : Sort = BubbleSort()
+
+print("unSorted : \(arr)")
+bubblesort.Sort(arr: &arr, start: 0, end: arr.count)
+print("Sorted : \(arr)")
 //practiceDFS(n: 7, edges: [(1, 2), (2, 1), (1, 3), (3, 1), (2, 3), (3, 2), (2, 4), (4, 2), (2, 5), (5, 2), (3, 6), (6, 3), (3, 7), (7, 3), (4, 5), (5, 4), (6, 7), (7, 6)])
 
 
