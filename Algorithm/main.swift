@@ -49,14 +49,19 @@ for i in 0..<100 {
 //print("Sorted : \(arr)")
 
 /* BubbleSortTest */
-var bubblesort : Sort = BubbleSort()
-
-print("unSorted : \(arr)")
-bubblesort.Sort(arr: &arr, start: 0, end: arr.count)
-print("Sorted : \(arr)")
+//var bubblesort : Sort = BubbleSort()
+//
+//print("unSorted : \(arr)")
+//bubblesort.Sort(arr: &arr, start: 0, end: arr.count)
+//print("Sorted : \(arr)")
 //practiceDFS(n: 7, edges: [(1, 2), (2, 1), (1, 3), (3, 1), (2, 3), (3, 2), (2, 4), (4, 2), (2, 5), (5, 2), (3, 6), (6, 3), (3, 7), (7, 3), (4, 5), (5, 4), (6, 7), (7, 6)])
 
+/* MaxHeapSort Test */
 
+var maxHeapsort : Sort = MaxHeapSort()
+print("unSorted : \(arr)")
+maxHeapsort.Sort(arr: &arr, start: 0, end: arr.count)
+print("Sorted : \(arr)")
 //class Myclass {
 //    var a : YourClass!
 //    deinit {
