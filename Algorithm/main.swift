@@ -58,10 +58,80 @@ for i in 0..<100 {
 
 /* MaxHeapSort Test */
 
-var maxHeapsort : Sort = MaxHeapSort()
+//var maxHeapsort : Sort = MaxHeapSort()
+//print("unSorted : \(arr)")
+//maxHeapsort.Sort(arr: &arr, start: 0, end: arr.count)
+//print("Sorted : \(arr)")
+
+/* practice */
+//print("unSorted : \(arr)")
+//var practice : Sort = Practice(len:arr.count)
+//practice.Sort(arr: &arr, start: 0, end: arr.count)
+//print("Sorted : \(arr)")
+
+// practice MaxHeapSort Test
 print("unSorted : \(arr)")
-maxHeapsort.Sort(arr: &arr, start: 0, end: arr.count)
+//var practice : Sort = Practice(len:arr.count)
+//practice.Sort(arr: &arr, start: 0, end: arr.count)
+var test : Sort = PracticeSort(length: arr.count)
+test.Sort(arr: &arr, start: 0, end: arr.count)
 print("Sorted : \(arr)")
+
+if (test.verifySort(arr: &arr))
+{
+    print("합격")
+}
+else
+{
+    print("불합격")
+}
+
+/* RadixSort Test */
+//print("unSorted : \(arr)")
+//var radixsort : Sort = RadixSort();
+//radixsort.Sort(arr: &arr, start: 0, end: arr.count)
+//print("Sorted : \(arr)")
+//if (radixsort.verifySort(arr: &arr))
+//{
+//    print("합격")
+//}
+//else
+//{
+//    print("불합격")
+//}
+
+//
+//
+//func fectorial(n : Int) -> Int
+//{
+//    if(n > 0)
+//    {
+//        return fectorial(n: n-1) * n
+//    }
+//    else
+//    {
+//        return 1
+//    }
+//}
+//
+//func fibo(n : Int) -> Int
+//{
+//    if ( n <= 1)
+//    {
+//        return n
+//    }
+//    else
+//    {
+//        return fibo(n: n-2) + fibo(n: n-1)
+//    }
+//}
+//
+//if let i = Int(readLine()!) {
+//    print(fibo(n: i))
+//}
+
+
+
 //class Myclass {
 //    var a : YourClass!
 //    deinit {

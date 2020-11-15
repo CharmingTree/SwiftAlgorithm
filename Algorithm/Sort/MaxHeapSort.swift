@@ -84,4 +84,7 @@ class MaxHeapSort : Sort
             percdwn(arr: &arr, root: 0, len: i)
         }
     }
+    func verifySort(arr: inout [Int]) -> Bool {
+        return true
+    }
 }

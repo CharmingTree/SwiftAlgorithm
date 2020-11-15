@@ -26,4 +26,9 @@ class BubbleSort : Sort
     public func Sort(arr: inout [Int], start: Int, end: Int) {
         bubbleSort(arr: &arr, start: start, end: end)
     }
+    
+    func verifySort(arr: inout [Int]) -> Bool {
+        return true
+    }
+    
 }

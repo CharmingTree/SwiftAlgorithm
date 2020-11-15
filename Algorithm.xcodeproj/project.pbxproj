@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6082872542EB8C00852946 /* TimSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6082862542EB8C00852946 /* TimSort.swift */; };
+		BF60828A25453F3F00852946 /* RadixSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60828925453F3E00852946 /* RadixSort.swift */; };
+		BF980B1225612D09003E736E /* pacticeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF980B1125612D09003E736E /* pacticeSort.swift */; };
 		BFC5AFD6253021EB0030EFE7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5AFD5253021EB0030EFE7 /* main.swift */; };
 		BFC5AFE02530235F0030EFE7 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5AFDF2530235F0030EFE7 /* MergeSort.swift */; };
 		BFC5AFE32530D72C0030EFE7 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC5AFE22530D72C0030EFE7 /* QuickSort.swift */; };
@@ -15,6 +18,7 @@
 		BFCD395E253ADBDB00DFDA43 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCD395D253ADBDB00DFDA43 /* Sort.swift */; };
 		BFCD3961253ADC4800DFDA43 /* BubbleSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCD3960253ADC4800DFDA43 /* BubbleSort.swift */; };
 		BFCD3964253B174000DFDA43 /* MaxHeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCD3963253B174000DFDA43 /* MaxHeapSort.swift */; };
+		BFCD3967253B275100DFDA43 /* practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCD3966253B275100DFDA43 /* practice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +34,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF6082862542EB8C00852946 /* TimSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimSort.swift; sourceTree = "<group>"; };
+		BF60828925453F3E00852946 /* RadixSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadixSort.swift; sourceTree = "<group>"; };
+		BF980B1125612D09003E736E /* pacticeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pacticeSort.swift; sourceTree = "<group>"; };
 		BFC5AFD2253021EB0030EFE7 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC5AFD5253021EB0030EFE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BFC5AFDF2530235F0030EFE7 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -39,6 +46,7 @@
 		BFCD395D253ADBDB00DFDA43 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		BFCD3960253ADC4800DFDA43 /* BubbleSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleSort.swift; sourceTree = "<group>"; };
 		BFCD3963253B174000DFDA43 /* MaxHeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxHeapSort.swift; sourceTree = "<group>"; };
+		BFCD3966253B275100DFDA43 /* practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,10 @@
 				BFCD395D253ADBDB00DFDA43 /* Sort.swift */,
 				BFCD3960253ADC4800DFDA43 /* BubbleSort.swift */,
 				BFCD3963253B174000DFDA43 /* MaxHeapSort.swift */,
+				BFCD3966253B275100DFDA43 /* practice.swift */,
+				BF6082862542EB8C00852946 /* TimSort.swift */,
+				BF60828925453F3E00852946 /* RadixSort.swift */,
+				BF980B1125612D09003E736E /* pacticeSort.swift */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -156,14 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF60828A25453F3F00852946 /* RadixSort.swift in Sources */,
+				BF980B1225612D09003E736E /* pacticeSort.swift in Sources */,
 				BFCD3964253B174000DFDA43 /* MaxHeapSort.swift in Sources */,
 				BFCD395B253ACF8800DFDA43 /* InsertSort.swift in Sources */,
 				BFC5AFE02530235F0030EFE7 /* MergeSort.swift in Sources */,
 				BFC5AFE72532D6F10030EFE7 /* DFS.swift in Sources */,
 				BFC5AFE32530D72C0030EFE7 /* QuickSort.swift in Sources */,
 				BFC5AFD6253021EB0030EFE7 /* main.swift in Sources */,
+				BF6082872542EB8C00852946 /* TimSort.swift in Sources */,
 				BFCD3961253ADC4800DFDA43 /* BubbleSort.swift in Sources */,
 				BFCD395E253ADBDB00DFDA43 /* Sort.swift in Sources */,
+				BFCD3967253B275100DFDA43 /* practice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
